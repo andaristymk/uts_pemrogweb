@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+body{
+    margin-bottom: 0px;
+    padding: 0px;
+    background: url(bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+.signin-box{
+    width: 320px;
+    height: 470px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px;
+    transform: translate(-50%, -50%);
+}
+h1{
+    margin-top: 0px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.signin-box p{
+    margin-bottom: -10px;
+    padding: 0px;
+    font-weight: bold;
+}
+.signin-box input{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.signin-box input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.signin-box input[type="submit"]{
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 5px;
+        padding: 8px 20px;
+        background: #48221f;
+        color: #fff;
+        border-radius: 40px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-decoration: none;
+    }
+.signin-box input[type="submit"]:hover{
+    cursor: pointer;
+    background: #e33d56;
+    color: #fff;
+}
+.signin-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+
+}
+.signin-box a:hover{
+    color: #e33d56;
+}
+.signin-box .sign p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+.signin-box .sign a{
+    position: center;
+}
